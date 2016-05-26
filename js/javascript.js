@@ -132,7 +132,7 @@ var defaultCourseOption={
 					'psize':20,
 					'type':10
 				},
-				url: 'http://study.163.com/webDev/couresByCategory.htm?',
+				url: 'https://study.163.com/webDev/couresByCategory.htm?',
 				callback: bulidCourseContent
 			};
 var curPagePlay = function(){
@@ -262,7 +262,7 @@ var defaultCourseList = {
 					'psize':20,
 					'type':10
 				},
-				url: 'http://study.163.com/webDev/couresByCategory.htm?',
+				url: 'https://study.163.com/webDev/couresByCategory.htm?',
 				callback: bulidPageList
 			};
 var pageListplay = function(){
@@ -354,7 +354,7 @@ var buildHotList = function(hotList){
 //初始化最热排行
 var defaultHotList = {
 		method: 'GET',
-		url: 'http://study.163.com/webDev/hotcouresByCategory.htm',
+		url: 'https://study.163.com/webDev/hotcouresByCategory.htm',
 		callback: buildHotList
 	}
 var hotListPlay = function(){
@@ -456,7 +456,7 @@ follow_btn.onmousedown = function(){
 //获取导航关注的cookie
 var followCookieData = {
 		method: 'GEt',
-		url:'http://study.163.com/webDev/attention.htm',
+		url:'https://study.163.com/webDev/attention.htm',
 		callback:followSuccess
 }
 
@@ -482,7 +482,7 @@ loginBtn.onmousedown = function(){
 		var md5pass = calcMD5(password.value);
 		var loginCookieData = {
 				method: 'GEt',
-				url: 'http://study.163.com/webDev/login.htm?',
+				url: 'https://study.163.com/webDev/login.htm?',
 				data: {
 					'userName' : md5name,
 					'password' : md5pass
