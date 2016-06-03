@@ -1,4 +1,4 @@
-window.onload = function(){
+
 /**
  * ajax函数说明
  * @param  {obj} option :{
@@ -655,4 +655,3 @@ var topBanner = document.getElementById('banner'),
 	play();
 
 	
-}
